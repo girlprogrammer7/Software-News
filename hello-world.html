@@ -1,62 +1,30 @@
 <!DOCTYPE html>
-<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
-<html lang="en-us">
+<html>
+    <head>
+        <title> Testing </title> 
+        <style> 
+        body{
+            background-color: DeepSkyBlue;
+            color: white;
+        }
 
-<head>
-<meta charset="utf-8">
-<title>Hello...</title>
-<style type="text/css">
-#mainContent {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: xx-large;
-	font-weight: bold;
-	background-color: #E3F0FB;
-	border-radius: 4px;
-	padding: 10px;
-	text-align: center;
-}
-.buttonStyle {
-	border-radius: 4px;
-	border: thin solid #F0E020;
-	padding: 5px;
-	background-color: #F8F094;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #663300;
-	width: 75px;
-}
+        h1, h2, a{ 
+            color: blue;
+        }
+            
+        </style>
+    </head>
+    <body>
+        <h1> Software Engineering </h1>
+        <img src = "http://2.bp.blogspot.com/-Bu9TCXk6DJk/VXVuyz4qacI/AAAAAAAAAas/KvJ5KM2m7fo/s1600/coding.jpg" />
+        <h2> Quick Inforamtion </h2> 
+        <ul>
+            <li> Teacher: Mr. Shanks </li>
+            <li> Block: 3rd Block on B Days</li>
+            <li> Time: 11:35 to 12:59 </li>
+        </ul>
+        <p> Software Engineering is sponsered by <a href = "https://www.pltw.org/pltw-software"> Project Lead the Way </a> and teaches how to program using Scratch, App Inventor, Python, HTML, CSS, and Java Script</p>
 
-.buttonStyle:hover {
-	border: thin solid #FFCC00;
-	background-color: #FCF9D6;
-	color: #996633;
-	cursor: pointer;
-}
-.buttonStyle:active {
-	border: thin solid #99CC00;
-	background-color: #F5FFD2;
-	color: #669900;
-	cursor: pointer;
-}
-
-</style>
-</head>
-
-<body>
-<div id="mainContent">
-<p id="helloText">?</p>
-<button id="clickButton" class="buttonStyle">click me</button>
-</div>
-<script> 
-var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
-
-myButton.addEventListener('click', doSomething, false)
-
-function doSomething() {
-	myText.textContent = "hello, world!";
-}
-</script>
-
-</body>
+        <a href = "http://www.saratogaschools.org/files/1377121/program%20of%20studies%202017%202018.pdf"> Learn more about Saratoga Schools' PLTW sequence</a>
+    </body>
 </html>
